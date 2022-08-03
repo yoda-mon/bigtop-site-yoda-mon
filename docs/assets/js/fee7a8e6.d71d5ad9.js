@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbigtop_site=self.webpackChunkbigtop_site||[]).push([[1939],{5894:e=>{e.exports=JSON.parse('{"permalink":"/bigtop-site-yoda-mon/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

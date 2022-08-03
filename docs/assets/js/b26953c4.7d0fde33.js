@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbigtop_site=self.webpackChunkbigtop_site||[]).push([[519],{3492:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/bigtop-site-yoda-mon/blog/tags/docusaurus","allTagsPath":"/bigtop-site-yoda-mon/blog/tags","count":4}')}}]);
