@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Apache Bigtop',
+  tagline: 'Packaging and Testing Apache Hadoop ecosystem.',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'apache', // Usually your GitHub org/user name.
+  projectName: 'bigtop', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -57,23 +57,109 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Apache Bigtop',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Apache Bigtop Logo',
+          src: 'img/bigtop-logo.svg',
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
+            type: 'dropdown',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Releases',
+            items: [
+              {
+                label: 'Release Notes',
+                href: 'https://bigtop.apache.org/release-notes.html',
+              },
+              {
+                label: '3.0.0',
+                href: 'https://www.apache.org/dyn/closer.lua/bigtop/bigtop-3.0.0/',
+              },
+              {
+                label: '1.5.0',
+                href: 'https://www.apache.org/dyn/closer.lua/bigtop/bigtop-1.5.0/',
+              },
+            ],
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            type: 'dropdown',
+            position: 'left',
+            label: 'Documentation',
+            items: [
+              {
+                type: 'doc',
+                docId: 'get-started',
+                label: 'Documentation',
+              },
+              {
+                label: 'Wiki',
+                href: 'https://cwiki.apache.org/confluence/display/BIGTOP',
+              },
+            ]
+          },
+          {
+            type: 'dropdown',
+            position: 'left',
+            label: 'Project Information',
+            items: [
+              {
+                label: 'Powered by',
+                href: 'https://cwiki.apache.org/confluence/display/BIGTOP/Powered+By+Bigtop',
+              },
+              {
+                label: 'Who we are',
+                href: 'https://bigtop.apache.org/team-list.html',
+              },
+              {
+                label: 'Feedback',
+                href: 'https://bigtop.apache.org/issue-tracking.html',
+              },
+              {
+                label: 'JIRA',
+                href: 'https://issues.apache.org/jira/projects/BIGTOP/issues',
+              },
+              {
+                label: 'Blog',
+                href: 'https://blogs.apache.org/bigtop/',
+              },
+              {
+                label: 'Maling List',
+                href: 'https://bigtop.apache.org/mail-lists.html',
+              },
+              {
+                label: 'IRC Channel',
+                href: 'https://bigtop.apache.org/irc-channel.html',
+              },
+            ],
+          },
+          {
+            href: 'https://github.com/apache/bigtop',
             label: 'GitHub',
             position: 'right',
+          },
+          {
+            type: 'dropdown',
+            position: 'right',
+            label: 'Apach Software Foundation',
+            items: [
+              {
+                label: 'How Apache Works',
+                href: 'https://www.apache.org/foundation/how-it-works.html',
+              },
+              {
+                label: 'Foundation',
+                href: 'https://www.apache.org/foundation/',
+              },
+              {
+                label: 'Sponsering Apache',
+                href: 'https://www.apache.org/foundation/sponsorship.html',
+              },
+              {
+                label: 'Thanks',
+                href: 'https://www.apache.org/foundation/thanks.html',
+              },
+            ],
           },
         ],
       },
@@ -94,15 +180,7 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://stackoverflow.com/questions/tagged/bigtop',
               },
             ],
           },
@@ -120,7 +198,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Apache Bigtop`,
       },
       prism: {
         theme: lightCodeTheme,

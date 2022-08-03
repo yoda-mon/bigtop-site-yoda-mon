@@ -1,0 +1,32 @@
+.logoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  grid-gap: 1rem;
+  list-style-type: none;
+}
+
+.item {
+  list-style-type: none;
+}
+
+.project {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.image {
+  width: 8rem;
+  height: 5rem;
+  object-fit: contain;
+}
+
+.following {
+  font-size : 1.2rem;
+  text-align: center;
+}
+
+.title{
+  font-size : 3rem;
+  text-align: center;
+}

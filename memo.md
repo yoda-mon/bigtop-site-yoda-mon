@@ -26,8 +26,14 @@ rm bigtop-site/package-lock.json
 ```
 
 ```sh
-
+# for edit
 UID="$(id -u)" GID="$(id -g)" docker-compose up
+```
+
+```sh
+# build
+docker exec -i bigtop-site-yoda-mon_docusaurus_1 npm run build
+docker cp bigtop-site-yoda-mon_docusaurus_1:/bigtop-site/build bigtop-site/build
 ```
 
 ## refs
