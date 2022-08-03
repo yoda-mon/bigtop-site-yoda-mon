@@ -9,7 +9,7 @@ const config = {
   title: 'Apache Bigtop',
   tagline: 'Packaging and Testing Apache Hadoop ecosystem.',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/bigtop-site-yoda-mon/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
