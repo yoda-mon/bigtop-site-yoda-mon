@@ -32,8 +32,8 @@ UID="$(id -u)" GID="$(id -g)" docker-compose up
 
 ```sh
 # build
-docker exec -i bigtop-site-yoda-mon_docusaurus_1 npm run build
-docker cp bigtop-site-yoda-mon_docusaurus_1:/bigtop-site/build docs
+docker exec -i bigtop-site-yoda-mon-docusaurus-1 npm run build
+docker cp bigtop-site-yoda-mon-docusaurus-1:/bigtop-site/build/. docs
 ```
 
 ## refs
