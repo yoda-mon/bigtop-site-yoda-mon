@@ -19,6 +19,10 @@ Ok to proceed? (y) y
 
 cp -R bigtop-site/* /bigtop-site/
 
+# Add a required library here
+npm install tsparticles
+npm install react-particles
+
 exit
 
 rm -r bigtop-site/node_modules
@@ -31,12 +35,21 @@ UID="$(id -u)" GID="$(id -g)" docker-compose up
 ```
 
 ```sh
+# after installing JS libraries 
+docker cp bigtop-site-yoda-mon-docusaurus-1:/bigtop-site/package.json .
+```
+
+```sh
 # build
 docker exec -i bigtop-site-yoda-mon-docusaurus-1 npm run build
 docker cp bigtop-site-yoda-mon-docusaurus-1:/bigtop-site/build/. docs
 ```
 
 ## refs
+### Logo
+- https://www.apache.org/logos/
 
-https://www.apache.org/logos/
-
+### Animation
+- https://github.com/matteobruni/tsparticles/blob/main/components/react/README.md
+- https://codepen.io/matteobruni/pen/mdmqMKr
+- https://web-den.com/particles
