@@ -1,6 +1,7 @@
-a fanmade of Apache Bigtop site. please check the ML and JIRA about discussions.
+a fanmade of Apache Bigtop site. the contents are just copied to check please check feasibility of the generator.
+please check the ML and JIRA about discussions.
 
-## Work
+## Development
 ```sh
 # config files preparation
 mkdir bigtop-site
@@ -28,7 +29,7 @@ rm bigtop-site/package-lock.json
 ```
 
 ```sh
-# for edit
+# Run live server to edit document
 UID="$(id -u)" GID="$(id -g)" docker-compose up
 ```
 
@@ -37,11 +38,14 @@ UID="$(id -u)" GID="$(id -g)" docker-compose up
 docker cp bigtop-site-yoda-mon-docusaurus-1:/bigtop-site/package.json .
 ```
 
+## Build static HTML
+
 ```sh
 # build
 docker exec -i bigtop-site-yoda-mon-docusaurus-1 npm run build
 docker cp bigtop-site-yoda-mon-docusaurus-1:/bigtop-site/build/. docs
 ```
+
 
 ## refs
 ### Generator
