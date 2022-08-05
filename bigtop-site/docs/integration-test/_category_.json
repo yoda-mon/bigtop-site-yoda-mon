@@ -1,6 +1,6 @@
 {
   "label": "Integration Test",
-  "position": 5,
+  "position": 4,
   "link": {
     "type": "generated-index",
     "description": "Integration tests about the Projects Supported by Bigtop"

@@ -141,7 +141,7 @@ const config = {
           {
             type: 'dropdown',
             position: 'right',
-            label: 'Apach Software Foundation',
+            label: 'Apache Software Foundation',
             items: [
               {
                 label: 'How Apache Works',
@@ -171,7 +171,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs/getting-started/quickstart-guide',
               },
             ],
           },
@@ -189,7 +189,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/apache/bigtop',
               },
             ],
           },

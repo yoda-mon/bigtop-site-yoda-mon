@@ -1,4 +1,4 @@
-a fanmade of Apache Bigtop site
+a fanmade of Apache Bigtop site. please check the ML and JIRA about discussions.
 
 ## Work
 ```sh
