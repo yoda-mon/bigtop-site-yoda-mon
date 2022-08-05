@@ -74,11 +74,11 @@ const config = {
               },
               {
                 label: '3.0.0',
-                href: 'https://www.apache.org/dyn/closer.lua/bigtop/bigtop-3.0.0/',
+                href: 'https://archive.apache.org/dist/bigtop/bigtop-3.0.0/',
               },
               {
                 label: '1.5.0',
-                href: 'https://www.apache.org/dyn/closer.lua/bigtop/bigtop-1.5.0/',
+                href: 'https://archive.apache.org/dist/bigtop/bigtop-1.5.0/',
               },
             ],
           },
@@ -89,7 +89,7 @@ const config = {
             items: [
               {
                 type: 'doc',
-                docId: 'get-started',
+                docId: 'getting-started/quickstart-guide',
                 label: 'Documentation',
               },
               {

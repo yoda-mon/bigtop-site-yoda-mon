@@ -1,8 +1,6 @@
-Docusaurus https://docusaurus.io/
-Superset https://github.com/apache/superset/tree/master/docs
-ApiSix https://github.com/apache/apisix-website
+a fanmade of Apache Bigtop site
 
-
+## Work
 ```sh
 # config files preparation
 mkdir bigtop-site
@@ -46,6 +44,11 @@ docker cp bigtop-site-yoda-mon-docusaurus-1:/bigtop-site/build/. docs
 ```
 
 ## refs
+### Generator
+- Docusaurus https://docusaurus.io/
+- Superset https://github.com/apache/superset/tree/master/docs
+- ApiSix https://github.com/apache/apisix-website
+
 ### Logo
 - https://www.apache.org/logos/
 
