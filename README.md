@@ -46,6 +46,10 @@ docker exec -i bigtop-site-yoda-mon-docusaurus-1 npm run build
 docker cp bigtop-site-yoda-mon-docusaurus-1:/bigtop-site/build/. docs
 ```
 
+```sh
+# generate versioned docs
+docker exec -i bigtop-site-yoda-mon-docusaurus-1 npm run docusaurus docs:version 3.0.1
+```
 
 ## refs
 ### Generator

@@ -6,10 +6,12 @@ services:
       - 3000:3000
       #- 35729:35729
     volumes:
-      - ./bigtop-site/blog:/bigtop-site/blog
       - ./bigtop-site/docs:/bigtop-site/docs
       - ./bigtop-site/src:/bigtop-site/src
       - ./bigtop-site/static:/bigtop-site/static
       - ./bigtop-site/docusaurus.config.js:/bigtop-site/docusaurus.config.js
       - ./bigtop-site/sidebars.js:/bigtop-site/sidebars.js
+      - ./bigtop-site/versioned_docs:/bigtop-site/versioned_docs
+      - ./bigtop-site/versioned_sidebars:/bigtop-site/versioned_sidebars
+      - ./bigtop-site/versions.json:/bigtop-site/versions.json
     working_dir: /bigtop-site
