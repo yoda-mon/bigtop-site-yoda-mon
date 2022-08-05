@@ -30,7 +30,7 @@ rm bigtop-site/package-lock.json
 
 ```sh
 # Run live server to edit document
-UID="$(id -u)" GID="$(id -g)" docker-compose up
+USERID="$(id -u)" GROUPID="$(id -g)" docker-compose up  # might not works well for permissions...
 ```
 
 ```sh
